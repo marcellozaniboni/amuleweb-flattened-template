@@ -326,8 +326,8 @@ function formCommandSubmit(command)
 		}
 
 	  ?>
-    <tr align="right"> 
-      <td colspan="4" scope="col">
+    <tr align="left"> 
+      <td colspan="4" scope="col" style="padding-top: 14px">
         <input name="Download" type="submit" id="Download6" value="Download" onClick="javascript:formCommandSubmit('download');" >
         <select name="targetcat" id="select32">
           <?php
