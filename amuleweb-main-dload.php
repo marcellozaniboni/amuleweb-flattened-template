@@ -253,8 +253,7 @@ function formCommandSubmit(command)
   <tr>
     <td width="24" background="images/tab_left.png">&nbsp;</td>
     <td bgcolor="#FFFFFF"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
-                     
-          <tr> 
+          <tr>
                   <th>&nbsp;</th>
                   <th><a href="amuleweb-main-dload.php?sort=name">File name</a></th>
                   <th><a href="amuleweb-main-dload.php?sort=size">Size</a></th>
@@ -439,16 +438,15 @@ function formCommandSubmit(command)
 	  	<td colspan="3" style="padding-left: 20px; padding-top: 10px"><b>UPLOADS</b></td>
 	</tr>
 
-        <tr> 
+        <tr>
           <td width="24"><img src="images/tab_top_left.png" width="24" height="24"></td>
           <td background="images/tab_top.png">&nbsp;</td>
           <td width="24"><img src="images/tab_top_right.png" width="24" height="24"></td>
         </tr>
-        <tr> 
+        <tr>
           <td width="24" background="images/tab_left.png">&nbsp;</td>
           <td bgcolor="#FFFFFF"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="doad-table">
-              
-        <tr> 
+        <tr>
                 <td>&nbsp;</td>
                 <th>File Name</th>
                 <th>Username</th>
@@ -504,6 +502,13 @@ function formCommandSubmit(command)
       
     </td>
   </tr>
+  <tr><td style="padding-left: 20px; padding-top: 10px" colspan="2">
+  Colors:<br>
+  &nbsp;[<span style="color:#fe0101">&block;</span>] red = no sources on the current session;<br>
+  &nbsp;[<span style="color:#0196ef">&block;</span>] blue = at least one source availble; the darker the blue, the more sources are available;<br>
+  &nbsp;[<span style="color:#fecf01">&block;</span>] yellow = been downloaded at this very moment;<br>
+  &nbsp;[<span style="color:#000000">&block;</span>] black = already been downloaded and verified.
+  </td></tr>
   <tr valign="bottom"> 
     <td height="25" colspan="2"> <table width="100%" height="40" border="0" cellpadding="0" cellspacing="0">
         <tr align="center" valign="middle"> 
