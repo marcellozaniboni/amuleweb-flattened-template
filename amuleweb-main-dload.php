@@ -499,16 +499,34 @@ function formCommandSubmit(command)
           <td width="24"><img src="images/tab_bottom_right.png" width="24" height="24"></td>
         </tr>
       </table>
-      
     </td>
   </tr>
-  <tr><td style="padding-left: 20px; padding-top: 10px" colspan="2">
-  Colors:<br>
-  &nbsp;[<span style="color:#fe0101">&block;</span>] red = no sources on the current session;<br>
-  &nbsp;[<span style="color:#0196ef">&block;</span>] blue = at least one source availble; the darker the blue, the more sources are available;<br>
-  &nbsp;[<span style="color:#fecf01">&block;</span>] yellow = been downloaded at this very moment;<br>
-  &nbsp;[<span style="color:#000000">&block;</span>] black = already been downloaded and verified.
-  </td></tr>
+
+  <tr>
+  	<td style="padding-left: 20px; padding-right: 20px" width="100%" colspan="2">
+  		<table width="100%" border="1" cellspacing="0" style="background-color: #F7F7F7; border: 2px solid white; border-collapse: collapse">
+  			<tr>
+  				<td width="50%" style="font-size: 10px; vertical-align: top; padding: 5px; border: 2px solid white; border-collapse: collapse">
+					About progress colors:<br>&nbsp;<br>
+					&nbsp;[<span style="color:#fe0101">&block;</span>] red = no sources on the current session;<br>
+					&nbsp;[<span style="color:#0196ef">&block;</span>] blue = at least one source availble; the darker the blue, the more sources are available;<br>
+					&nbsp;[<span style="color:#fecf01">&block;</span>] yellow = been downloaded at this very moment;<br>
+					&nbsp;[<span style="color:#000000">&block;</span>] black = already been downloaded and verified.
+  				</td>
+  				<td width="50%" style="font-size: 10px; vertical-align: top; padding: 5px; border: 2px solid white; border-collapse: collapse">
+					About sources format "XX/YY + ZZ (WW)":
+					<ul>
+						<li>XX = number of available sources you can download from</li>
+						<li>YY = total number of sources found</li>
+						<li>ZZ = number of "asked for another file" sources</li>
+						<li>WW = number of sources you are currently downloading from.</li>
+					</ul>
+  				</td>
+  			</tr>
+  		</table>
+  	</td>
+  </tr>
+
   <tr valign="bottom"> 
     <td height="25" colspan="2"> <table width="100%" height="40" border="0" cellpadding="0" cellspacing="0">
         <tr align="center" valign="middle"> 
